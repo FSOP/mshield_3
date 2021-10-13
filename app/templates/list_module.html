@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title>List of Modules</title>
+	</head>
+
+	<body>
+		<table border=1>
+			{% for p in list_modules %}
+			<tr>
+				<td>{{ p['name'] }}</td>
+				<td>{{ p['title'] }}</td>
+				<td>{{ p['type'] }}</td>
+				<td><a href="/test/get_module/{{p['title']}}">go!</a></td>
+			</tr>
+			{% endfor %}
+		</table>
+	</body>
