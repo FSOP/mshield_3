@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="root@13.209.3.203:55223" remoteFilesAllowedToDisappearOnAutoupload="false" autoUploadExternalChanges="true">
+  <component name="PublishConfigData" autoUpload="Always" serverName="root@13.125.146.26:53877" remoteFilesAllowedToDisappearOnAutoupload="false" autoUploadExternalChanges="true">
     <serverData>
       <paths name="root@13.124.79.104:53476">
         <serverdata>
@@ -9,7 +9,28 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="root@13.125.146.26:53877">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/workspace/project" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="root@13.209.3.203:55223">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/workspace/project" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@3.35.11.204:59534">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/workspace/project" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="root@3.35.174.31:53103">
         <serverdata>
           <mappings>
             <mapping deploy="/workspace/project" local="$PROJECT_DIR$" />

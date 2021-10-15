@@ -5,12 +5,22 @@
 
 	<body>
 		<table border=1>
+			<tr>
+				<td>NAME</td>
+				<td>TITLE</td>
+				<td>TYPE</td>
+				<td>extension</td>
+				<td>make</td>
+				<td>RAW</td>
+			</tr>
 			{% for p in list_modules %}
 			<tr>
 				<td>{{ p['name'] }}</td>
 				<td>{{ p['title'] }}</td>
 				<td>{{ p['type'] }}</td>
-				<td><a href="/test/get_module/{{p['title']}}">go!</a></td>
+				<td>{{ p['extension'] }}</td>
+				<td><a href="/test/option_module/{{p['title']}}">go!</a></td>
+				<td><a href="/test/view_raw/{{p['title']}}">view</a></td>
 			</tr>
 			{% endfor %}
 		</table>

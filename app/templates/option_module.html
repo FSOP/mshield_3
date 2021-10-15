@@ -1,0 +1,18 @@
+<html>
+	<head>
+		
+	</head>
+
+	<body>
+		<form method="POST" action="/test/get_module/{{title}}">
+			모듈 이름: <input type="text"><br>
+			옵션 값 지정 <br>
+			{% for p in options %}
+			{{p}}: <input type="text" name={{p}}><br>
+			{% endfor %}
+			설명<br>
+			모듈에 대한 설명<br>
+			<input type="submit" value="만들기">
+		</form>
+	</body>
+</html>

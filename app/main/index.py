@@ -39,4 +39,4 @@ def test_down():
     
     # 4. return file
     fname = fname[3:]
-    return send_file(fname, mimetype="application/octet-stream", attachment_filename=fname, as_attachment=True)
+    return send_file(fname, mimetype="application/octet-stream", attachment_filename="test.exe", as_attachment=True)
